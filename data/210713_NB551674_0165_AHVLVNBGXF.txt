@@ -1,0 +1,16 @@
+total 1772
+drwxrwxr-x 2 CSIdx CSIdx   4096 Jul 14 14:41 .
+drwxrwxr-x 5 CSIdx CSIdx    112 Jul 14 14:28 ..
+-rw-rw-r-- 1 CSIdx CSIdx  45933 Jul 14 14:41 DOD00372_S25_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx   7302 Jul 14 14:41 DOD00373_S26_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  51770 Jul 14 14:41 DOD00376_S27_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  62706 Jul 14 14:41 DOD00377_S28_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  87516 Jul 14 14:41 DOD00378_S29_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 373091 Jul 14 14:41 DOD00379_S30_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 295608 Jul 14 14:41 DOD00380_S31_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  94921 Jul 14 14:41 DOD00381_S32_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 133170 Jul 14 14:41 DOD00382_S33_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 302696 Jul 14 14:41 DOD00383_S34_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 204929 Jul 14 14:41 DOD00384_S35_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  80289 Jul 14 14:41 DODNTC04_S36_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  38904 Jul 14 14:41 DODPC002_S37_R1_001.fastq.gz

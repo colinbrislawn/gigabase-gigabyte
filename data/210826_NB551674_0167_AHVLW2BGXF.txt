@@ -1,0 +1,24 @@
+total 2204176
+drwxrwxr-x 2 CSIdx CSIdx      4096 Aug 27 14:42 .
+drwxrwxr-x 5 CSIdx CSIdx       117 Aug 27 14:45 ..
+-rw-rw-r-- 1 CSIdx CSIdx  38675559 Aug 27 14:44 SS-10-8-pg_S10_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  70199999 Aug 27 14:44 SS-11-8-pg_S11_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  55904326 Aug 27 14:44 SS-12-8-pg_S12_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  65940346 Aug 27 14:44 SS-13-9-pg_S13_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  79215047 Aug 27 14:44 SS-14-9-pg_S14_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  89674461 Aug 27 14:44 SS-15-9-pg_S15_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 118638941 Aug 27 14:44 SS-1-5-pg_S1_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 269792658 Aug 27 14:44 SS-16-10-pg_S16_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  94329146 Aug 27 14:44 SS-17-10-pg_S17_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  84993727 Aug 27 14:44 SS-18-10-pg_S18_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  77998610 Aug 27 14:44 SS-2-5-pg_S2_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  71989338 Aug 27 14:44 SS-3-5-pg_S3_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  83989451 Aug 27 14:44 SS-4-6-pg_S4_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  52671289 Aug 27 14:44 SS-5-6-pg_S5_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  97194171 Aug 27 14:44 SS-6-6-pg_S6_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 161050260 Aug 27 14:44 SS-7-7-pg_S7_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 437449739 Aug 27 14:44 SS-8-7-pg_S8_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 120521900 Aug 27 14:44 SS-9-7-pg_S9_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  63369814 Aug 27 14:44 SS-NTC-5-pg_S19_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx   5129643 Aug 27 14:44 SS-PCP-5-pg_S20_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 118295140 Aug 27 14:44 SS-PCV-5-pg_S21_R1_001.fastq.gz

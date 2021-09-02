@@ -1,0 +1,23 @@
+total 17604904
+drwxrwxr-x 2 CSIdx CSIdx       4096 Jun  2 11:45 .
+drwxrwxr-x 5 CSIdx CSIdx        114 Jun  2 11:50 ..
+-rw-rw-r-- 1 CSIdx CSIdx 2866577174 Jun  2 11:49 CS-NTC_S10_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx    3468745 Jun  2 11:49 CS-Site-1-A_S1_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  190926177 Jun  2 11:49 CS-Site-1-B_S2_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx   75234337 Jun  2 11:49 CS-Site-1-C_S3_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  280564546 Jun  2 11:49 CS-Site-2-A_S4_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 1879931947 Jun  2 11:49 CS-Site-2-B_S5_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 1484262843 Jun  2 11:49 CS-Site-2-C_S6_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 1270542644 Jun  2 11:49 CS-Site-3-A_S7_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 1327401074 Jun  2 11:49 CS-Site-3-B_S8_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 1769560448 Jun  2 11:49 CS-Site-3-C_S9_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  821200241 Jun  2 11:49 OP-NTC_S20_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx   48891553 Jun  2 11:49 OP-Site-1-A_S11_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx   47762779 Jun  2 11:49 OP-Site-1-B_S12_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx   56499066 Jun  2 11:49 OP-Site-1-C_S13_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx   65086117 Jun  2 11:49 OP-Site-2-A_S14_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  121669170 Jun  2 11:49 OP-Site-2-B_S15_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 1635610141 Jun  2 11:49 OP-Site-2-C_S16_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  679272683 Jun  2 11:49 OP-Site-3-A_S17_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 1719108973 Jun  2 11:49 OP-Site-3-B_S18_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 1683811693 Jun  2 11:49 OP-Site-3-C_S19_R1_001.fastq.gz

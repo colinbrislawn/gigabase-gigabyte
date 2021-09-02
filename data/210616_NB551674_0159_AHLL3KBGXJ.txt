@@ -1,0 +1,15 @@
+total 30630912
+drwxrwxr-x 2 CSIdx CSIdx       4096 Jun 17 09:18 .
+drwxrwxr-x 5 CSIdx CSIdx        108 Jun 17 08:41 ..
+-rw-rw-r-- 1 CSIdx CSIdx 3158614161 Jun 17 09:24 TBICV001_S1_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 2386200711 Jun 17 09:24 TBICV002_S2_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 2639462977 Jun 17 09:24 TBICV003_S3_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 2149753311 Jun 17 09:24 TBICV004_S4_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 1191657228 Jun 17 09:24 TBICV005_S5_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 2098701943 Jun 17 09:24 TBICV006_S6_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 2698214135 Jun 17 09:24 TBICV007_S7_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 3125987328 Jun 17 09:24 TBICV008_S10_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx  122943681 Jun 17 09:24 TBICWNTC_S11_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 8287295599 Jun 17 09:24 TBICWPC_S12_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx 3456212705 Jun 17 09:24 TBINTC01_S8_R1_001.fastq.gz
+-rw-rw-r-- 1 CSIdx CSIdx   50980156 Jun 17 09:24 TBIPC001_S9_R1_001.fastq.gz
