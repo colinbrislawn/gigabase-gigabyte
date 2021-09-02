@@ -1,0 +1,87 @@
+---
+title: "Compare GigaBases to GigaBytes"
+author: "Colin J. Brislawn"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+
+library(kableExtra)
+library(broom)
+
+knitr::opts_chunk$set(echo = FALSE)
+
+theme_set(theme_bw() + theme(strip.background = element_blank()))
+
+```
+
+
+```{r import, message=F, warning=F}
+# Load seqkit counts
+sample.bps <- dir(path = "data/", pattern = ".*.tsv", full.names = T) %>%
+  map_df(read_tsv) %>%
+  mutate(basepairs = sum_len)
+
+# Load file sizes
+read_lsal <- function(file = NULL){
+  read_delim(file = file, delim = "\\s*", col_names = F) %>%
+    separate(X1,
+             into = c("permissions", "count",
+                      "user", "group", "bytes",
+                      "month", "day", "time", "file"),
+             sep = "\\s+") %>%
+    return()
+}
+
+sample.sizes <- dir(path = "data/", pattern = ".*.txt", full.names = T) %>%
+  map_df(read_lsal) %>%
+  filter(permissions == "-rw-rw-r--") %>%
+  mutate(bytes = as.numeric(as.character(bytes)))
+
+samples <- sample.bps %>%
+  left_join(sample.sizes)
+```
+
+```{r plot}
+samples %>%
+  ggplot(aes(x = basepairs, y = bytes, color = time, fill = time)) +
+  scale_y_log10() + scale_x_log10() +
+  geom_point()
+
+samples %>%
+  lm(bytes ~ basepairs, data = .) %>%
+  tidy() %>%
+  filter(term == "basepairs") %>%
+  kable() %>% kable_styling(full_width = F, position = "left")
+
+```
+
+So around 0.6 bytes per basepair (with `gz -l 4`)
+
+```{r}
+samples2 <- samples %>%
+  mutate(
+    GigaBase = basepairs/1e9,
+    GigaByte = bytes / 1073741824
+    )
+
+samples2 %>%
+  ggplot(aes(x = GigaBase, y = GigaByte, color = time, fill = time)) +
+  scale_y_log10() + scale_x_log10() +
+  geom_point()
+
+samples2 %>%
+  lm(GigaByte ~ GigaBase, data = .) %>%
+  tidy() %>%
+  filter(term == "GigaBase") %>%
+  kable() %>% kable_styling(full_width = F, position = "left")
+```
+
+#### Takeaway message:
+
+### 1 billion basepairs take up around half a gig (at `gz -l 4`)
+
+```{r include=F, eval=F, cache=F}
+knitr::knit_exit()
+```
